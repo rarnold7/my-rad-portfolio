@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -55,8 +56,17 @@ footer {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    color: #024747de;
-    background: #eefaf8;
+    color: #080166de;
+    background: #bccdfc;
     width: 100%;
     padding: 40px 35px;
+}
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("blue marble background-01.png");
+    height: 600px;
 }
