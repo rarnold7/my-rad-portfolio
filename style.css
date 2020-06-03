@@ -32,7 +32,7 @@ header a {
 
 header nav {
     float: right;
-    margin: 7px, 0px;
+    margin: 20px;
 }
 
 header nav ul li {
@@ -109,4 +109,14 @@ footer {
 
 .hero-form label {
     margin: 0 5px;
+}
+
+.hero-form button {
+    color: rgb(255, 255, 255);
+    background-color: steelblue;
+    border: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
