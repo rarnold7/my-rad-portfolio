@@ -56,17 +56,29 @@ footer {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    color: #080166de;
-    background: #bccdfc;
+    color: #ffffff;
+    background: #6e6e6e;
     width: 100%;
     padding: 40px 35px;
 }
 
-section {
-    padding: 60px;
-}
+/* Hero Style Start */
 
 .hero {
-    background-image: url("blue marble background-01.png");
+    background-image: url("/Users/reganarnold/Creative Cloud Files/white abstract background dude.png");
     height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hero Style End */
+
+.hero-form {
+    background-color: #000000;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    border-style: double;
+    border-width: 5px;
+    border-color: #ffffff;
 }
