@@ -8,7 +8,10 @@
 
 body {
     color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./assets/blue-green-leaves-01.jpg)
+    
+    url("./assets/blue-green-leaves-01.jpg");
 }
 
 header {
