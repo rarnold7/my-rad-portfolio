@@ -1,2 +1,11 @@
 # my-rad-portfolio
-My RAD portfolio contains quality README with description, screenshot, link to deployed application
+
+Challenge #2 Submission Requirements:
+
+My RAD portfolio contains quality README with description, screenshot, link to deployed application.
+
+DESCRIPTION:
+
+SCREENSHOT:
+
+LINK:
