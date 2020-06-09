@@ -26,3 +26,14 @@ LINK:
             </p>
         </div>
     </section>
+
+
+
+    <div>
+            <img src="./assets/PS-headshot-photo.jpeg" alt="Headshot of Regan with Photoshop Overlay" />
+        </div>
+
+        <div>
+            <h3>Soft Skills</h3>
+
+        </div>

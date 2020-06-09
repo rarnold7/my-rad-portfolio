@@ -1,5 +1,3 @@
-/* I'm a CSS comment! */
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +7,6 @@
 body {
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(./assets/blue-green-leaves-01.jpg) url("./assets/blue-green-leaves-01.jpg");
 }
 
 header {
@@ -20,7 +17,7 @@ header {
 header h1 {
     font-weight: lighter;
     background-color: black;
-    font-size: 36px;
+    font-size: 55px;
     color: #c714b8de;
     margin: 0;
     display: inline;
@@ -58,6 +55,14 @@ h4 {
     font-style: italic;
 }
 
+.hero {
+    background-image: url("./assets/blue-green-leaves-01.jpg");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 footer {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -65,8 +70,11 @@ footer {
     color: #011241;
     background: #032b9973;
     width: 100%;
-    padding: 20px, 20px;
+    padding: 40px, 40px;
 }
+
+/* HERO & Contact section, class="hero" */
+
 
 .hero-form {
     background-color: #0000009f;
@@ -77,13 +85,13 @@ footer {
     border-width: 3px;
     border-color: #2c86fc9d;
     position: absolute;
-    bottom: 50px;
-    right: 50px;
+    bottom: 25px;
+    right: 25px;
 }
 
 .hero {
     background-image: url("./assets/blue-green-leaves-01.jpg");
-    height: 700px;
+    height: 750px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -98,14 +106,14 @@ footer {
     margin: 5px 0 15px 0;
 }
 
-.form-input {
+.hero-input {
     border: 1px solid #9ecdfc;
     display: block;
-    padding: 7px 15px;
-    font-size: 16px;
+    padding: 7px 12px;
+    font-size: 14px;
     color: white;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .hero-form label {
@@ -119,6 +127,7 @@ footer {
     border-style: solid;
     border-width: 1px;
     padding: 10px 20px;
+    float: right;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -127,37 +136,50 @@ button:hover {
     background: element(em em-heart);
 }
 
-/* About section, class="intro" */
 
+
+/* ABOUT section, class="intro" */
 .intro {
-    text-align: center;
+    text-align: left;
+}
+
+.intro img {
+    width: 450px;
+    height: 550px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+    display: inline-flex;
 }
 
 .intro h2 {
-    font-size: 55px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    color: #024e76;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
+    text-align: left;
+    color: #a9e1ff;
+    padding: 0 20px 0 20px;
+    border-bottom: 3px solid 20px;
     border-color: #000000;
-    display: inline-block;
+    display: inline-flex;
 }
 
 .intro p {
     line-height: 1.7;
-    color: #2c86fc9d;
-    width: 80%;
-    font-size: 20px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: top;
+    width: 35%;
+    height: 30%;
+    font-size: 18px;
     margin: 0 auto;
+    border: 3px black solid;
+    box-shadow: black;
+    padding: 0 20px 0 20px;
+    display: inline-flex;
 }
 
-.intro img {
-    width: 500px;
-    height: 650px;
-}
 
 .intro h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -172,6 +194,38 @@ button:hover {
     color: #2c86fc9d;
 }
 
+
+/*  Expertise section, class="skills" */
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: #024e76;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #000000;
+    display: inline-block;
+}
+
+.skills p {
+    line-height: 1.7;
+    color: #2c86fc9d;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.skills h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px;
+    display: flexbox;
+}
 
 /* Portfolio section, class="RADesigns" */
 
