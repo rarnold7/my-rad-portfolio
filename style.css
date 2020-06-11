@@ -262,9 +262,10 @@ button:hover {
     margin-right: 40px;
 }
 
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (orientation: Portfolio) {
     header {
         padding-bottom: 0;
         justify-content: center;
