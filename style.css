@@ -88,8 +88,6 @@ footer {
     background-size: cover;
     background-position: center;
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .hero-form {
@@ -207,8 +205,8 @@ button:hover {
     color: #2c86fc9d;
 }
 
-
 /* Portfolio section, class="RADesigns" */
+
 .RADesigns {
     text-align: center;
     display: flex;
@@ -265,9 +263,13 @@ button:hover {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
+        justify-content: center;
+    }
+    .hero-form {
         justify-content: center;
     }
     header h1 {
@@ -282,10 +284,20 @@ button:hover {
     header nav ul li a {
         font-size: 20px;
     }
+    .intro {
+        display: block;
+        justify-content: center;
+    }
+    .RADesigns {
+        display: block;
+        justify-content: center;
+    }
+    .hero-form {
+        display: block;
+        justify-content: center;
+    }
     footer h2, footer div {
         text-align: center;
         width: 100%;
     }
-}
-
 }
