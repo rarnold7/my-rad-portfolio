@@ -9,7 +9,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 header {
     padding: 20px 35px;
     background-color: #000000;
@@ -52,19 +51,23 @@ li {
     display: inline;
 }
 
-h4 {
-    color: rgb(161, 200, 252);
-    font-size: 18px;
-    font-weight: lighter;
-    font-style: italic;
-}
-
 .hero {
     background-image: url("./assets/blue-green-leaves-01.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.hero h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-wrap: wrap;
 }
 
 footer {
