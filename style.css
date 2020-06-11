@@ -70,12 +70,14 @@ footer {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    font-size: 16px;
-    color: #011241;
-    background: #032b9973;
+    font-size: 18px;
+    color: #ffffff;
+    background: #053b8dcc;
+    border: 3px solid;
+    border-color: rgb(12, 155, 12);
     width: 100%;
     margin: 5px 5px 5px 5px;
-    padding: 60px, 60px;
+    padding: 80px, 80px;
 }
 
 /* HERO & Contact section, class="hero" */
@@ -246,9 +248,10 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #000000;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .RADesigns p {
@@ -264,18 +267,25 @@ button:hover {
     justify-content: space-around;
 }
 
+.RADesigns h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding: 20px 0px 10px;
+    display: flex;
+}
+
 #portfolio-projects {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #portfolio-projects img {
-    width: 100px;
+    max-width: 100%;
+    width: 22vw;
+    width: calc(24vw + 15px);
+    padding: 20px 20px 20px 20px;
+    margin-right: 40px;
 }
-
-.RADesigns h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px 20px;
-    display: flex;
-}
-
-
