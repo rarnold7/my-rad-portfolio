@@ -249,18 +249,12 @@ button:hover {
 
 #portfolio-projects {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
 }
 
 #portfolio-projects img {
     max-width: 100%;
     width: 22vw;
     width: calc(24vw + 15px);
-    padding: 20px 20px 20px 20px;
-    margin-right: 40px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
