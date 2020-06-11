@@ -14,26 +14,25 @@ LINK:
 -----
 **For future updates**
 
-<!--(+) "Soft Skills" section -->
-    <section id="soft-skills" class="soft-skills">
+<!-- "Expertise" section class="skills" -->
+    <section id="expertise" class="skills">
+        <h2>Expertise</h2>
         <div>
-            <h3>Soft Skills</h3>
+            <h3>What I Do</h3>
             <p>
-                <img src="assets/adobe-creative-cloud-icon.png" alt="Adobe Creative Suite icon" />
-                <li>CSS3</li>
-                <li>Javascript</li>
-                </ul>
+            <ul>
+                <li>Graphic Design |</li>
+                <li>UX/UI |</li>
+                <li>Wireframes |</li>
+                <li>Front-End Development |</li>
+                <li>Branding</li>
+            </ul>
             </p>
-        </div>
-    </section>
-
-
-
-    <div>
-            <img src="./assets/PS-headshot-photo.jpeg" alt="Headshot of Regan with Photoshop Overlay" />
-        </div>
+        </div><br>
 
         <div>
             <h3>Soft Skills</h3>
-
+            <img src=" " alt=" " />
         </div>
+
+    </section>
