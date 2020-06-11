@@ -82,6 +82,14 @@ footer {
 
 /* HERO & Contact section, class="hero" */
 
+.hero {
+    background-image: url("./assets/blue-green-leaves-01.jpg");
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
 .hero-form {
     background-color: #0000009f;
     padding: 20px;
@@ -93,14 +101,6 @@ footer {
     position: absolute;
     bottom: 25px;
     right: 25px;
-}
-
-.hero {
-    background-image: url("./assets/blue-green-leaves-01.jpg");
-    height: 750px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
 }
 
 .hero-form h3 {
@@ -289,3 +289,26 @@ button:hover {
     padding: 20px 20px 20px 20px;
     margin-right: 40px;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1 a {
+        /* this will be applied on any screen smaller than 980px */
+        color: tomato;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header h1 {
+        /* this will be applied on any screen between 768px and 575px */
+        font-size: 80px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header h1 {
+        /* this will be applied on any screen smaller than 575px */
+        font-size: 100px;
+    }
