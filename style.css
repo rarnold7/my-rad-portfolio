@@ -249,6 +249,7 @@ button:hover {
 
 #portfolio-projects {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #portfolio-projects img {
@@ -260,7 +261,7 @@ button:hover {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
 @media screen and (max-width: 980px) and (orientation: Portfolio) {
-    header, footer {
+    header {
         padding-bottom: 10px;
         justify-content: center;
         position: relative;
