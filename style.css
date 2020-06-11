@@ -145,8 +145,8 @@ button:hover {
 }
 
 /* ABOUT section, class="intro" */
+
 .intro {
-    background-image: url("./assets/blue-green-leaves-01.jpg");
     margin: 0;
     height: 600px;
     text-align: left;
@@ -208,6 +208,7 @@ button:hover {
 }
 
 /* Portfolio section, class="RADesigns" */
+
 .RADesigns {
     text-align: center;
 }
@@ -220,6 +221,8 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .RADesigns p {
@@ -230,7 +233,7 @@ button:hover {
     margin: 0 auto;
     width: 100%;
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
