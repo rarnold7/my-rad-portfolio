@@ -60,7 +60,7 @@ h4 {
 
 .hero {
     background-image: url("./assets/blue-green-leaves-01.jpg");
-    height: 700px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -84,11 +84,10 @@ footer {
 
 .hero {
     background-image: url("./assets/blue-green-leaves-01.jpg");
-    height: 750px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
-    display: inline-block;
 }
 
 .hero-form {
@@ -147,6 +146,9 @@ button:hover {
 
 /* ABOUT section, class="intro" */
 .intro {
+    background-image: url("./assets/blue-green-leaves-01.jpg");
+    margin: 0;
+    height: 600px;
     text-align: left;
     display: inline;
     flex-wrap: wrap;
@@ -206,7 +208,6 @@ button:hover {
 }
 
 /* Portfolio section, class="RADesigns" */
-
 .RADesigns {
     text-align: center;
     display: flex;
@@ -284,12 +285,6 @@ button:hover {
         width: 100%;
     }
     .RADesigns {
-        padding-bottom: 10px;
-        justify-content: center;
-        position: relative;
-        width: 100%;
-    }
-    .hero-form {
         padding-bottom: 10px;
         justify-content: center;
         position: relative;
