@@ -88,6 +88,7 @@ footer {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: inline-block;
 }
 
 .hero-form {
@@ -145,7 +146,6 @@ button:hover {
 }
 
 /* ABOUT section, class="intro" */
-
 .intro {
     text-align: left;
     display: inline;
