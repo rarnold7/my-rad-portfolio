@@ -84,77 +84,23 @@ footer {
     padding: 80px, 80px;
 }
 
-/* HERO & Contact section, class="hero" */
-
-.hero {
-    background-image: url("./assets/blue-green-leaves-01.jpg");
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.hero-form {
-    background-color: #0000009f;
-    padding: 20px;
-    width: 35%;
-    color: #ffffff;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #2c86fc9d;
-    position: absolute;
-    bottom: 25px;
-    right: 25px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.hero-form h3 {
-    font-size: 24px;
-    margin: 0px;
-}
-
-.hero-form p {
-    margin: 5px 0 15px 0;
-}
-
-.hero-input {
-    border: 1px solid #9ecdfc;
-    display: block;
-    padding: 7px 12px;
-    font-size: 14px;
-    color: white;
-    width: 100%;
-    margin-bottom: 12px;
-}
-
-.hero-form label {
-    margin: 0 5px;
-}
-
-.hero-form button {
-    color: rgb(255, 255, 255);
-    background-color: steelblue;
-    border: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px 20px;
-    float: right;
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-button:hover {
-    background: element(em em-heart);
-}
-
-/* ABOUT section, class="intro" */
+/* ABOUT */
 
 .intro {
     margin: 0;
     height: 600px;
+    display: flex;
+}
+
+.intro h2 {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    margin-top: 20px;
     text-align: left;
-    display: inline;
+    color: #02314b;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -165,52 +111,28 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 20px 0 20px;
-    display: inline-flex;
-}
-
-.intro h2 {
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    margin-top: 50px;
-    text-align: left;
-    color: #e8f7ff;
-    padding: 0 20px 0 20px;
-    border-bottom: 3px solid 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
 }
 
 .intro p {
     line-height: 1.7;
-    color: #bce5f8;
+    color: #02314b;
     font-weight: lighter;
     text-align: center;
+    margin: 20px 10px 20px 10px;
     width: 35%;
     height: 40%;
-    margin-top: 50px;
-    margin-bottom: 50px;
     font-size: 18px;
-    margin: 0 auto;
-    border: 3px rgb(0, 0, 0) solid;
-    background-color: rgba(0, 0, 0, 0.637);
-    padding: 0 20px 0 20px;
-    display: inline-block;
-    flex-wrap: wrap;
+    padding: 10 30px 10 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.intro h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px 20px;
-    display: flexbox;
-}
-
-.intro h3 ul li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 1.7;
-    display: block;
-    color: #2c86fc9d;
-}
-
-/* Portfolio section, class="RADesigns" */
+/* PORTFOLIO */
 
 .RADesigns {
     text-align: center;
