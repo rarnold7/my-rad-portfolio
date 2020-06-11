@@ -210,7 +210,6 @@ button:hover {
 /* Portfolio section, class="RADesigns" */
 .RADesigns {
     text-align: center;
-    display: flex;
 }
 
 .RADesigns h2 {
@@ -221,10 +220,6 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 .RADesigns p {
