@@ -235,6 +235,7 @@ button:hover {
 
 .RADesigns {
     text-align: center;
+    display: flex;
 }
 
 .RADesigns h2 {
@@ -263,8 +264,12 @@ button:hover {
     justify-content: space-around;
 }
 
-.RADesigns p my-projects {
+#portfolio-projects {
+    display: flex;
+}
 
+#portfolio-projects img {
+    width: 100px;
 }
 
 .RADesigns h3 {
@@ -273,14 +278,4 @@ button:hover {
     display: flex;
 }
 
-.RAD1 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 
-#portfolio {
-    display: flex;
-}
