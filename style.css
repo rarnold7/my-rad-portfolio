@@ -88,7 +88,6 @@ footer {
 
 .intro {
     text-align: center;
-    display: flex;
 }
 
 .intro h2 {
@@ -100,15 +99,17 @@ footer {
     margin-bottom: 20px;
     padding: 0 100px 20px 100px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .intro img {
     width: 450px;
     height: 550px;
     margin: 0;
-    margin-top: 20px;
     margin-bottom: 20px;
-    padding: 0 20px 0 20px;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .intro p {
@@ -120,13 +121,14 @@ footer {
     margin-top: 20px;
     text-align: left;
     color: #02314b;
-    width: 80%;
-    display: inline-flex;
+    padding: 0 20px 0 20px;
+    width: 40%;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 /* PORTFOLIO */
+
 .RADesigns {
     text-align: center;
 }
@@ -152,7 +154,7 @@ footer {
 #portfolio-projects {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0 20px 0 20px;
     padding: 10px 10px 10px 10px;
 }
@@ -164,9 +166,8 @@ footer {
     margin: 20px 20px 20px 20px;
 }
 
-
-
 /* CONTACT */
+
 .contact-info {
     text-align: center;
 }
@@ -189,8 +190,6 @@ footer {
     padding: 20px 0px 100px 20px;
     display: inline-block;
 }
-
-
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
