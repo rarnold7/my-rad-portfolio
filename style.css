@@ -271,8 +271,32 @@ button:hover {
         position: relative;
         width: 100%;
     }
+    .hero {
+        padding-bottom: 10px;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+    .intro {
+        padding-bottom: 10px;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+    .RADesigns {
+        padding-bottom: 10px;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+    .hero-form {
+        padding-bottom: 10px;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
     @media screen and (max-width: 768px) {
-        section {
+        .hero {
             padding: 30px 15px;
         }
         @media screen and (max-width: 575px) {
