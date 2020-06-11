@@ -88,6 +88,8 @@ footer {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-form {
@@ -101,6 +103,8 @@ footer {
     position: absolute;
     bottom: 25px;
     right: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-form h3 {
@@ -146,6 +150,8 @@ button:hover {
 
 .intro {
     text-align: left;
+    display: inline;
+    flex-wrap: wrap;
 }
 
 .intro img {
@@ -175,7 +181,7 @@ button:hover {
     color: #bce5f8;
     font-weight: lighter;
     text-align: center;
-    width: 40%;
+    width: 35%;
     height: 40%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -185,6 +191,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.637);
     padding: 0 20px 0 20px;
     display: inline-block;
+    flex-wrap: wrap;
 }
 
 .intro h3 {
@@ -200,41 +207,8 @@ button:hover {
     color: #2c86fc9d;
 }
 
-/*  Expertise section, class="skills" */
-
-.skills {
-    text-align: center;
-}
-
-.skills h2 {
-    font-size: 55px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
-    color: #024e76;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #000000;
-    display: inline-block;
-}
-
-.skills p {
-    line-height: 1.7;
-    color: #2c86fc9d;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
-
-.skills h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px 20px;
-    display: flexbox;
-}
 
 /* Portfolio section, class="RADesigns" */
-
 .RADesigns {
     text-align: center;
     display: flex;
@@ -292,23 +266,26 @@ button:hover {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    header h1 a {
-        /* this will be applied on any screen smaller than 980px */
-        color: tomato;
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
     }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-    header h1 {
-        /* this will be applied on any screen between 768px and 575px */
-        font-size: 80px;
-    }
 }
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
-    header h1 {
-        /* this will be applied on any screen smaller than 575px */
-        font-size: 100px;
-    }
