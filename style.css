@@ -178,7 +178,7 @@ footer {
     font-weight: lighter;
     color: #024e76;
     margin-top: 20px;
-    padding: 0 100px 20px 100px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
