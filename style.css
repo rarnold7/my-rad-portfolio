@@ -15,10 +15,9 @@ header {
 }
 
 header h1 {
-    font-weight: lighter;
     background-color: black;
     font-size: 55px;
-    color: #c714b8de;
+    font-weight: lighter;
     margin: 0;
     display: inline;
 }
@@ -45,6 +44,9 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 li {
@@ -61,11 +63,9 @@ li {
 
 .hero h4 {
     color: white;
-    font-size: 25px;
-    font-weight: lighter;
+    font-size: 30px;
     font-style: italic;
-    display: inline;
-    align-items: flex-end;
+    font-weight: lighter;
     z-index: 1;
     padding: 0 20px 0 20px;
 }
@@ -110,17 +110,18 @@ footer {
     border-left: 3px black solid;
     padding: 0 20px 0 20px;
     color: #02314b;
-    width: 40%;
+    max-width: 100%;
+    width: 22vw;
+    width: calc(24vw + 15px);
 }
 
 #about-me {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     margin: 0 20px 0 20px;
     padding: 10px 10px 10px 10px;
-    box-sizing: border-box;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #about-me img {
