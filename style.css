@@ -123,14 +123,11 @@ footer {
     padding: 10px 10px 10px 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 #about-me img {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 100%;
     width: 22vw;
     width: calc(24vw + 15px);
