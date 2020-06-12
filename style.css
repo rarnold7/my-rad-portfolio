@@ -28,6 +28,8 @@ header a {
 }
 
 header nav {
+    display: inline-flex;
+    flex-wrap: wrap;
     float: right;
     margin: 20px;
 }
@@ -113,6 +115,7 @@ footer {
     max-width: 100%;
     width: 22vw;
     width: calc(24vw + 15px);
+    display: flex;
 }
 
 #about-me {
