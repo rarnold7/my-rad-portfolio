@@ -61,6 +61,7 @@ header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 30px;
+    padding: 10px 10px 10px 10px;
     text-shadow: none;
 }
 
