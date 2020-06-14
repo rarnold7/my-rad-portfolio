@@ -239,10 +239,52 @@ footer {
         width: 100%;
     }
     @media screen and (max-width: 768px) {
+        .header {
+            padding: 30px 15px;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+        }
         .hero {
             padding: 30px 15px;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+        }
+        .intro {
+            padding: 30px 15px;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+        }
+        .RADesigns {
+            padding: 30px 15px;
+            justify-content: center;
+            position: relative;
+            width: 100%;
         }
         @media screen and (max-width: 575px) {
-            .section-title {
+            .header {
                 width: 95%;
+                padding: 30px 15px;
+                justify-content: center;
+                position: relative;
+            }
+            .hero {
+                width: 95%;
+                padding: 30px 15px;
+                justify-content: center;
+                position: relative;
+            }
+            .intro {
+                width: 95%;
+                padding: 30px 15px;
+                justify-content: center;
+                position: relative;
+            }
+            .RADesigns {
+                width: 95%;
+                padding: 30px 15px;
+                justify-content: center;
+                position: relative;
             }
