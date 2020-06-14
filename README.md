@@ -9,7 +9,7 @@ DESCRIPTION: The purpose of this site is to show potential employers samples of 
 SCREENSHOT: ![My RAD Portfolio website screenshot](./assets/BFA662F8-3E3B-489F-8A81-ED5ADFFC8E02.jpeg)
 
 
-LINK: 
+LINK: https://rarnold7.github.io/my-rad-portfolio/
 
 
 -----
